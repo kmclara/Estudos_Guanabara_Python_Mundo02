@@ -16,10 +16,10 @@ exceder_do_salario = (salario_usuário*0.30)
 
 #Se, senão se, senão: 
 if salario_usuário > exceder_do_salario: 
-    print("O aluguel que você irá pagar é de {:.2f}.".format(cálculo_prestação_mensal))
+    print("O aluguel que você irá pagar é de R${:.2f}.".format(cálculo_prestação_mensal))
     print("Porém o valor excedeu 30%, sendo assim, seu emprestimo foi negado!")
 else: 
-    print("O aluguel que você irá pagar é de {:.2f}.".format(cálculo_prestação_mensal))
+    print("O aluguel que você irá pagar é de R${:.2f}.".format(cálculo_prestação_mensal))
     print("O valor NÃO excedeu 30%, emprestimo APROVADO!")
 
 print("Obrigada por usar nosso programa! Volte sempre!")
