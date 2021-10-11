@@ -15,7 +15,7 @@ cálculo_prestação_mensal =  valor_da_casa / (quantos_anos_aluguel*12)
 exceder_do_salario = (salario_usuário*0.30) 
 
 #Se, senão se, senão: 
-if salario_usuário > exceder_do_salario: 
+if cálculo_prestação_mensal > exceder_do_salario: 
     print("O aluguel que você irá pagar é de R${:.2f}.".format(cálculo_prestação_mensal))
     print("Porém o valor excedeu 30%, sendo assim, seu emprestimo foi negado!")
 else: 
