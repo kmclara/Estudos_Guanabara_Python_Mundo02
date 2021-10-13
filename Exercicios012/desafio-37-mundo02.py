@@ -20,3 +20,5 @@ elif Opção_do_usuário == 3:
     print("{} convertido para HEXADECIMAL é igual á {}.".format(número_inteiro, hex(número_inteiro) [2: ]))
 else: 
     print("Opção invalida! Tente novamente!")
+
+print("Obrigada por usar nosso programa! Volte sempre")
