@@ -24,5 +24,5 @@ Deve_se_Alistar = (Ano_do_Computador + Anos_que_Falta)
 Deveria_se_Alistar = (Ano_do_Computador - Anos_que_Passou)
 
 #If, elif e else
-if idade < 18: 
+if Idade_do_Usuário < 18: 
     print("Você ainda não precisa se alistar! Falta {} anos para você se alistar. Você poderá comparecer no alistamento no ano de {}!".format(Idade_Falta, Deve_se_Alistar))
