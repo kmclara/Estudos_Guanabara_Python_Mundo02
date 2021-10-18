@@ -11,4 +11,6 @@ Cálculo_da_Média = (Nota_1 + Nota_2)/2
 if Cálculo_da_Média < 5.0: 
     print("De acordo com sua média {}, você foi REPROVADO sua média foi menor que 5.0! \nEstude mais na próxima!".format(Cálculo_da_Média))
 elif Cálculo_da_Média>=5.0 and Cálculo_da_Média<=6.9:
-    print("De acordo com suas notas {} e {}, você está de RECUPERAÇÃO! Sua média foi de {}. \nSe atente mais aos estudos!".format())
+    print("De acordo com suas notas {} e {}, você está de RECUPERAÇÃO! Sua média foi de {}. \nSe atente mais aos estudos!".format(Nota_1, Nota_2, Cálculo_da_Média))
+elif Cálculo_da_Média > 7.0: 
+    
