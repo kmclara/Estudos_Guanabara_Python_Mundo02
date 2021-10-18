@@ -20,8 +20,8 @@ Anos_que_Falta = (Idade_Correta - Idade_do_Usuário)
 Anos_que_Passou = (Idade_do_Usuário - Idade_Correta)
 
 #Cálculo mostrando o ano que o usuário deve ou deveria se alistar: 
-Deve_se_Alistar = (Ano_do_Computador + Idade_Falta)
-Deveria_se_Alistar = (Ano_do_Computador - Idade_Passou)
+Deve_se_Alistar = (Ano_do_Computador + Anos_que_Falta)
+Deveria_se_Alistar = (Ano_do_Computador - Anos_que_Passou)
 
 #If, elif e else
 if idade < 18: 
