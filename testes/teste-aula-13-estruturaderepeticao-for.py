@@ -18,3 +18,9 @@ print("FIM")
 #Quero que ele conte de 0 a 100 de 3 em 3:
 for y in range (0,100,3):
     print(y)
+print("FIM")
+
+o = int(input("Digite um número: "))
+for p in range (0, o+1):
+    print(p)
+print("Fim")
