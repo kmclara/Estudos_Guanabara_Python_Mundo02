@@ -24,3 +24,10 @@ o = int(input("Digite um número: "))
 for p in range (0, o+1):
     print(p)
 print("Fim")
+
+g = int(input("Inicio: "))
+l = int(input("Fim: "))
+s = int(input("Passo: "))
+
+for ç in range (g, l, s):
+    print(ç)
