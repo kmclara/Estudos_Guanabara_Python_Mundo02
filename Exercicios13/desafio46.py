@@ -1,5 +1,5 @@
 import time 
-import emoji 
+import emoji
 
 #Contagem regressiva + pausa de um segundo: 
 for t in range (10, 0, -1):
