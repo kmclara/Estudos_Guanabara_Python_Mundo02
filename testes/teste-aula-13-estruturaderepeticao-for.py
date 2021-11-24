@@ -31,3 +31,8 @@ s = int(input("Passo: "))
 
 for ç in range (g, l, s):
     print(ç)
+print("FIM")
+
+for e in range (0,3):
+    k = int(input("Digite um número: "))
+print("Fim")
