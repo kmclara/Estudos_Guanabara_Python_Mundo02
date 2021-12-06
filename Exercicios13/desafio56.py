@@ -11,5 +11,9 @@ for Questions in range (1,5):
     if Questions == 1 and SexoUsuario in "Mm":
         IdadeHomemVelho = IdadeUsuario
         NomeHomemVelho = NomeUsuario
+    if SexoUsuario in "Mm" and IdadeUsuario > IdadeHomemVelho:
+        IdadeHomemVelho = IdadeUsuario
+        NomeHomemVelho = NomeUsuario
 MediaIdade = SomaIdade/4
 print("A média da idade do grupo é de {} anos!".format(MediaIdade))
+print("O homem mais velho tem {} anos e se chama {}!".format(IdadeHomemVelho, NomeHomemVelho))
