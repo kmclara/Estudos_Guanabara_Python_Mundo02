@@ -4,9 +4,9 @@ IdadeHomemVelho = 0
 NomeHomemVelho = ''
 
 for Questions in range (1,5):
-    NomeUsuario = input("Nome da {}ª pessoa: ".format(Questions))
+    NomeUsuario = input("Nome da {}ª pessoa: ".format(Questions)).strip()
     IdadeUsuario = int(input("Idade da {}ª pessoa: ".format(Questions)))
-    SexoUsuario = input("Sexo da {}ª pessoa: ".format(Questions))
+    SexoUsuario = input("Sexo da {}ª pessoa [M/F]: ".format(Questions)).strip()
     SomaIdade += IdadeUsuario
     if Questions == 1 and SexoUsuario in "Mm":
         IdadeHomemVelho = IdadeUsuario
