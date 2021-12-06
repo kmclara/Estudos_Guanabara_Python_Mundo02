@@ -5,4 +5,6 @@ menor = 0
 
 for Pesos in range (1,6):
     PerguntandoOPeso: float(input("Qual o peso da {}ª pessoa.".format(Pesos)))
-
+    if Pesos == 1:
+        maior = Pesos
+        menor = Pesos
