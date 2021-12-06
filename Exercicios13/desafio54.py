@@ -15,6 +15,7 @@ for Maioridade in range (0,7):
 print("O total de pessoas maiores de idade é de {}.".format(contmaior))
 print("O total de pessoas menores de idade é de {}.".format(contmenor))
 
+print("Obrigada por usar nosso programa!")
 
       
     
