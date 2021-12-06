@@ -4,7 +4,7 @@ maior = 0
 menor = 0
 
 for Pesos in range (1,6):
-    PerguntandoOPeso: float(input("Qual o peso da {}ª pessoa.".format(Pesos)))
+    PerguntandoOPeso = float(input("Qual o peso da {}ª pessoa: ".format(Pesos)))
     #Se for o peso da primeira pessoa, ela será maior e menor ao mesmo tempo, pois não temos outro valor de comparação:
     if Pesos == 1:
         maior = PerguntandoOPeso
